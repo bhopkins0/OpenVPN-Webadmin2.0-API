@@ -23,5 +23,5 @@ www-data ALL=(root) NOPASSWD: /var/www/setVPNProtocol.sh
 www-data ALL=(root) NOPASSWD: /var/www/setVPNDNS.sh
 www-data ALL=(root) NOPASSWD: /var/www/toggleVPNStatus.sh
 ```
-8. Run `install.sh`
+8. Run `chmod +x install.sh && ./install.sh`
 
