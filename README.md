@@ -10,8 +10,8 @@ How to use:
 3. Add the server to the OpenVPN Webadmin
 4. Add the files in `web_dir` to your web directory
 5. Set the API key in the `config.php` file
-6. Add the files in `openvpn_scripts` to `/var/www/`
-7. Enter the command `visudo` and add these lines:
+6. Add the files in `openvpn_scripts` to `/var/www/` and give executable permissions (`chmod +x file_name`)
+8. Enter the command `visudo` and add these lines:
 
 ```
 www-data ALL=(root) NOPASSWD: /var/www/returnConnectedClients.sh
